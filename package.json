@@ -1,0 +1,12 @@
+  {
+  "dependencies": {
+    "@observablehq/notebook-kit": "^2.1.3"
+  },
+  "scripts": {
+    "preview": "notebooks preview --root nbks --template nbks/template.md",
+    "build": "notebooks build --root nbks --out ../docs -- nbks/*.html"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
