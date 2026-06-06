@@ -4,7 +4,7 @@
   },
   "scripts": {
     "preview": "notebooks preview --root nbks --template nbks/template.md",
-    "build": "notebooks build --root nbks --out ../docs --template nbks/template.md -- nbks/*.html"
+    "build": "notebooks build --root nbks --out ../dist --template nbks/template.md -- nbks/*.html"
   },
   "devDependencies": {
     "esbuild": "^0.28.0"
